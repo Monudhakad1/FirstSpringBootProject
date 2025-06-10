@@ -16,5 +16,11 @@ public class HelloController {
     @GetMapping("/test")
     public String testing(){
         return "Sanket Singh";
+
+    }
+    @GetMapping("/monu")
+    public String Monnu(){
+        return "Monu ji";
+
     }
 }
